@@ -21,4 +21,4 @@ if you want to try you need to:
 5) create the app from CloudBalena, download the image, flash the image and insert the SD card into your device
 6) boot the device
 
-[![](https://www.balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/PastaGringo/balenaos-helium-gtw)
+[![](https://www.balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/williamliu2/balenaos-helium-gtw)
