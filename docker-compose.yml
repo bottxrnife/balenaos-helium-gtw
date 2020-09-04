@@ -6,7 +6,7 @@ services:
     build:
       context: loragtwpktfwd
       args:
-        - LORA_REGION=EU868
+        - LORA_REGION=US915
         - LORA_UDP=1680 #default "1680"
         #- SPI_SPEED=8000000 #default 2000000
         #- PIN_RESET=11
@@ -23,7 +23,7 @@ services:
       - 'miner-data:/var/data'
       - 'miner-log:/var/log/miner'
     environment:
-      - 'REGION_OVERRIDE=EU868'
+      - 'REGION_OVERRIDE=US915'
 
 volumes:
   miner-data:
